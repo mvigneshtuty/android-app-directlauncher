@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+      <fragment
+        android:id="@+id/fragment_choose_contacts"
+        android:name="org.delphinuslabs.directlauncher.fragments.ChooseContactsFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10" />
+
+       <fragment
+        android:id="@+id/fragment_options"
+        android:name="org.delphinuslabs.directlauncher.fragments.OptionsProviderFragment"
+        android:layout_width="fill_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        />
+
+
+
+</LinearLayout>
